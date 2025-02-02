@@ -19,7 +19,7 @@ bool repeating_timer_callback(struct repeating_timer *t);
 
 // Função para acender o LED por um tempo específico
 void controlaLed(uint gpio, bool operacao) {
-    gpio_put(gpio, operacao);       // Liga o LED indicado no parâmetro gpio
+    gpio_put(gpio, operacao);       // Liga/Desliga o LED indicado no parâmetro gpio
 }
 
 // Inicializa LEDs 
