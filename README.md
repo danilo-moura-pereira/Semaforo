@@ -2,7 +2,7 @@
 Temporizador periódico utilizando Pico SDK
 
 ## Funcionamento 📋
-O programa utiliza a função add_repeating_timer_ms(), presente no pacote Pico para executar as seguintes operações (utilizando 3 leds e 3 resistores de 300 ohms ou a placa BitDogLab):
+O programa utiliza a função add_repeating_timer_ms(), presente no pacote Pico SDK para executar as seguintes operações (utilizando 3 leds e 3 resistores de 300 ohms ou a placa BitDogLab):
 
 ### Utilizando 3 leds e 3 resistores de 300 ohms:
 - O LED vermelho acende durante 3 segundos e os LEDs amarelo e verde permanecem apagados.
